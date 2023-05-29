@@ -1,12 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML</title>
+        <style>body{font-family:'Courier New';}</style>
+    </head>
+    <body>
+        <h1>HTML &#40;HyperText Markup Language&#41;</h1><hr>
+        <h2 id="nav0">Indices</h2>
+        <ul>
+            <li><a href="#nav1">Introdução</a></li>
+            <li><a href="#nav2">Html</a></li>
+            <li><a href="#nav3">Estrutura e Tags</a></li>
+            <li><a href="#nav4">Referências</a></li>
+        </ul>
+        <h3 id="nav1"><u>Introdução</u></h3>
+        <p>Esta página é um pequeno informativo sobre como uma <i>página da web</i> é feita e as ferramentas necessárias para elaborar sua criação.</p>
+        <p>O programa para criar e editar um documento <dnf><abbr title="HyperText Markup Language">HTML</abbr></dnf> pode ser de um simples editor de texto como o bloco de notas presente em diversas versões windows, como no linux atraves do próprio terminal utilizando o neovim. Alem das simples ferramentas citadas a cima, há programas voltados somente para essa finalidade seria utilizar um ambiente de desenvolvimento multiplataforma e bem popular como o <strong><dfn><abbr title="Microsoft Visual Studio Code">VSCODE</abbr></dfn></strong> que pode ser instalado no Windows, Linux e MacOS.</p>
+        <p>O <i>&quot;<dfn><abbr title="Microsoft Visual Studio Code">VSCODE</abbr></dfn>&quot;</i> é recomendado devido ha uma alta gama de recursos no ambiente de desenvolvimento que auxiliam e facilitam no processo de desenvolvimento de uma web, e pode ser adquirido gratuitamente, acesse o site official do <a href="https://code.visualstudio.com/" target="_blank" title="Ir para pagina official do vscode">vscode</a> é saiba mais.</p>
+        <h3 id="nav2">HTML</h3>
+        <small><sup>^</sup> Subir para <a href="#nav0">Indices</a></small>
+        <p>HTML &#40;HyperText Markup Language&#41; é uma linguagem fundamental para a construção de páginas da web.<br>É responsável por estruturar o conteúdo e definir como ele será exibido em um navegador.<br>Ao utilizar o HTML, é possível criar documentos que contêm textos, imagens, vídeos e outros elementos interativos.</p>
+        <p>Uma das principais características do HTML é a sua capacidade de organizar e hierarquizar o conteúdo. Isso é feito através da utilização de elementos e suas respectivas tags.<br>Cada tag tem uma função específica, como indicar um título, um parágrafo ou uma imagem.</p>
+        <p>Além disso, o HTML permite a criação de links, formulários, tabelas e outras estruturas que facilitam a navegação e a interação do usuário com o conteúdo.<br>Com a adição de atributos, é possível fornecer informações adicionais aos elementos, como o endereço de uma imagem ou o destino de um link.</p>
+        <p>Para estilizar o conteúdo HTML e torná-lo visualmente atraente, é comum utilizar o CSS &#40;Cascading Style Sheets&#41;, que permite definir cores, fontes, tamanhos e outros estilos. Combinado com o HTML, o CSS possibilita a criação de páginas web com aparência profissional.</p>
+        <p>O HTML também pode ser complementado com o uso de JavaScript, uma linguagem de programação que adiciona interatividade e funcionalidades dinâmicas às páginas. Com o JavaScript, é possível criar animações, validar formulários, realizar requisições a servidores e muito mais.</p>
+        <p>No final, o HTML desempenha um papel crucial na construção de páginas da web, fornecendo a estrutura básica para a apresentação do conteúdo e a interação com os usuários.<br>É uma linguagem indispensável para aqueles que desejam criar e desenvolver sites e aplicações web.</p>
+        <blockquote>Fonte: ChatGPT</blockquote>
+        <h4 id="nav3">Tags</h4>
+        <small><sup>^</sup> subir para <a href="#nav0">Indices</a></small>
+        <p>A estrutura de um documento HTML é formada da sequinte maneira;</p>
+        <mark>
+            <code>&lt;html&gt;<br>&lt;head&gt;&lt;/head&gt;<br>&lt;body&gt;&lt;/body&gt;<br>&lt;/html&gt;</code>
+        </mark>
+        <p>Abaixo sera listado algumas tags e no fim desse indice um exemplo de como utilizalas.</p>
+        <p>Tag <strong>h1</strong> comumente usada para criar titulos.</p>
+        <mark>
+            <code>&lt;h1&gt;&lt;/h1&gt;</code>
+        </mark>
+        <p>Alterando a numeração da tag pode ir de <strong>h1</strong> a <strong>h6</strong>, conforme o numero aumenta o tamanho da fonte do titulo diminui.<br>Lembre-se de respeitar a sitaxe, forma <em>correta</em> da criação da tag, como o exemplo abaixo:</p>
+        <mark>
+            <code>&lt;h1&gt;&lt;/h1&gt;<br>&lt;h2&gt;&lt;/h2&gt;<br>&lt;h3&gt;&lt;/h3&gt;<br>&#46;&#46;&#46;</code>
+        </mark>
+        <p>Forma <em>incorreta</em>, maneira que não ira funcionar:</p>
+        <mark>
+            <code>&lt;h1&gt;&lt;/h5&gt<br>&lt;h3&gt;&lt;/h4&gt;</code><br><br>
+            <del><code>&lt;h1&gt;&lt;/h5&gt<br>&lt;h3&gt;&lt;/h4&gt;</code></del>
+        </mark>
+        <p>Tag <strong>p</strong> para criar um paragrafo.</p>
+        <mark>
+            <code>&lt;p&gt;&lt;/p&gt;</code>
+        </mark>
+        <p>Tag <strong>a</strong> utilizada para criar links.<br>&#40;Sera necessário utilizar alguns atributos para o funcionamento dessa <i>tag</i>, no exemplo de utilização a mesma sera apresentada&#41;</p>
+        <mark>
+            <code>&lt;a&gt;&lt;/a&gt;</code>
+        </mark>
+        <p>Tag <strong>img</strong> para adicionar imagens.<br>&#40;Sera necessário utilizar alguns atributos para o funcionamento dessa <i>tag</i>, no exemplo de utilização a mesma sera apresentada&#41;</p>
+        <mark>
+            <code>&lt;img&gt;</code>
+        </mark><br><br>
+        <p>Estrurua e utilização das tags na prática e uso de alguns atributos para utilização das tags <strong>&quot;a&quot;</strong> &#40;links para direcionar para outra web page&#41; e <strong>&quot;img&quot;</strong> &#40;adicionar imagens&#41;&#46;</p><br>
+        <pre>
+            <code>
+                &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;title&gt;nome da aba&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;h1&gt;Meu titulo&lt;/h1&gt;
+                        &lt;h2&gt;Meu subtítulo&lt;/h2&gt;
+                        &lt;p&gt;Meu paragrafo&lt;/p&gt;
+                        &lt;a href="https://www.google.com.br/"&gt;Google&lt;/a&gt;
+                        &lt;img src="https://www.google.com.br/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Logo do Google"/&gt;
+                    &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+        <hr><h5 id="nav4">Referências</h5>
+        <small><sup>^</sup> Subir para <a href="#nav0">Indices</a></small>
+        <p>Explore por esses links para aprender sobre o assunto Gratuitamente e torne-se um futuro(a) Dev.<br>Aqui uma lista de alguns sites para aprender <i>HTML</i> agora!</p>
+        <ol>
+            <li><a href="https://www.dio.me/" target="_blank" title="Ir para pagina da Dio.me">Dio.me</a>&#40;Plataforma de cursos com certificado&#41;</li>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" taget="_blank" title="Ir para pagina do MDN Web Docs">MDN Web Docs</a> &#40;Documentação no site da Mozilla&#41;</li>
+            <li><a href="https://www.w3schools.com/html/default.asp" target="_blank" title="Ir para pagina do W3schools">W3schools</a> &#40;Conteúdo em inglês&#41;</li>
+            <li><a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank" title="Ir para canal curso em video Youtube">Curso em video</a> 	&#40;Canal no Youtube&#41;</li>
+            <li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a> &#40;Conteúdo em inglês&#41;</li>
+        </ol>
+        <h6>Obrigado por ler até aqui! <sub>&#128512;</sub></h6>
+    </body>
 </html>
